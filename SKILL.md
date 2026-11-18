@@ -1,38 +1,43 @@
 ---
 name: exam-cheatsheet
-description: Create, revise, or audit a course-specific, exam-ready Word cheat sheet using course materials, exam requirements, and available practice evidence.
+description: Create, revise, or audit an exam-ready Word cheat sheet grounded in course materials and tailored to how the student will answer questions.
 ---
 
 # Exam-ready cheat sheets
 
-Create an exam aid that helps the student recognise the question, retrieve the relevant idea quickly, and use it accurately. Adapt to the student, course, exam format, page limit, and available materials. Do not turn this into a general course-management system.
+Help the student recognise a question, find the relevant material, and use it in an answer. Adapt the sheet to the exam, the available evidence, and the student's needs; do not turn this into a course-management system.
 
-## 1. Establish the task interactively
+## 1. Confirm the task
 
-- Inspect the current conversation and user-specified or available course materials first. Do not ask for information already provided. Ask where materials are only if they are not already identifiable. Existing lecture slides, lecturer revision lists, course notes, practice exams, assignment feedback, and error records are useful; do not require all categories.
-- Identify the exam's question types, allowed materials, paper size, single- or double-sided page limit, answer language, and the user's preferred cue language. Check supplied official exam instructions first. Ask concise, grouped questions only for important missing information; distinguish confirmed rules, user reports, and unverified assumptions. Double-sided alone does not specify how many sheets are permitted: check or ask when the page limit matters. Do not invent restrictions or claim a topic is guaranteed to be examined.
-- Infer whether questions are primarily calculation/procedural, conceptual/scenario application, or mixed from evidence and user input; do not assign a mode merely from the discipline. Where the user has requested an existing document to be edited, inspect its contents, formatting, constraints, and current state before changing it.
-- Summarise discovered sources, gaps, inaccessible or image-based materials, planned organisation, and relevant constraints. Match the degree of interaction to the user's request: show a representative draft when useful, but do not impose a redundant approval step or delay work already authorised.
+- Inspect the conversation and available or specified materials first. Gather missing exam requirements: question types, permitted materials, paper size and page limit, answer language, and preferred language for memory cues. Distinguish the number of sheets from single- or double-sided printing. Ask concise, grouped questions only when important information is missing.
+- Use the exam questions to choose calculation/procedural, analytical/scenario, or mixed presentation; do not infer this from the subject name. Lecture slides, notes, revision lists, practice questions, and prior mistakes are useful inputs, not mandatory categories.
+- Summarise materials found, unreadable or missing sources, confirmed rules, and the proposed organisation. If editing an existing document, inspect its content and formatting first. Do not assume access to all prior chats, invent a student's weaknesses, or create a persistent profile.
 
-## 2. Ground content in the course
+## 2. Ground the content
 
-- Build a working source map linking material claims, formulas, course-specific terminology, exam rules, and inferred priority to the relevant source and page or slide when available. Preserve enough evidence to verify an item. Lecturer-provided course material and exam instructions take precedence over third-party interpretations; use revision lists and practice exams as evidence without assuming they exhaust the examinable syllabus.
-- Separate source-supported course content from pedagogical explanation and independent inference. Do not silently add unsourced external knowledge as if taught, even when generally correct. Flag conflicts, ambiguous terminology, unreadable sources, and significant uncertainty; resolve against course sources when possible. Different sources describing different roles are not necessarily contradictory or exclusive; assess the exact claims. If an unsupported addition would materially affect the sheet, consult the user before including it as a course claim.
-- Use accessible current conversation, user-specified records, and existing course files to identify demonstrated difficulties; never assume access to all prior chats or invent personal weaknesses. If personal data is absent, proceed with course materials and refine through practice. Do not create a persistent learner profile or update unrelated records without authorisation.
-- Maintain traceability in the working process. Provide an audit trail when requested or useful, but do not automatically create a separate file or crowd the exam sheet with citations; respect the user's requested outputs and file locations.
+- Trace claims, formulas, course-specific terms, and exam requirements to the materials actually read, recording file and page/slide where possible. Lecturer materials take precedence over third-party notes; revision lists and past questions may not cover everything examinable.
+- Distinguish taught content, illustrative examples, inferences, and outside information. Never present an unsupported addition as course content; flag material conflicts and consult the user when needed. Keep a working source map, but create a separate file only when requested or useful and authorised.
 
-## 3. Design for use in the exam
+## 3. Design for exam use
 
-- Group by a combination of familiar course headings and question cues so related concepts, contrasts, examples, and answer prompts are together. Express conceptual hierarchy accurately; do not place subtypes alongside their parent without labelling the relationship.
-- For calculation or procedural questions, include the decision trigger, formula or steps, variable meanings and units, relevant assumptions or applicability, a compact worked example, and a consequential trap where helpful. Prefer understanding and correct substitution to lists of unlabelled equations.
-- For scenario and analytical questions, combine the concept with actionable content: who acts, on which case-specific fact or issue, what they do, and the reason or consequence. Provide concise, adaptable answer wording rather than generic prompts like 'analyse the situation'. Use placeholders for scenario facts and do not present imagined details as given.
-- For classification and comparison questions, give distinguishing criteria and nearby confusable alternatives. Preserve class-specific categories and vocabulary rather than importing a different framework without disclosure.
-- Match the user's desired language and the exam's answer language. For a Chinese-speaking student answering in English, use compact Chinese memory cues alongside English terms and answer-ready wording. Expand unfamiliar acronyms near first use, and honour explicit requests for more frequent expansions.
-- Allocate space by relevance, uncertainty, exam format, and the student's actual needs. Prefer brief but usable examples over duplicated definitions and vague meta-advice. Preserve user-requested coverage; when content does not fit, adjust layout or discuss trade-offs rather than silently deleting requested material.
+- Group by recognisable question cues and familiar course headings. Keep related concepts, contrasts and answer prompts together; show parent/subtype relationships accurately. Match the exam's answer language and the student's cue language, and expand unfamiliar abbreviations near first use.
+- **Calculation / procedure:** include when to use the method, formula or steps, variable meanings and units, assumptions, and a short worked example or important trap.
+- **Scenario / analysis:** connect the concept to who acts, the case-specific issue, the action, and its purpose or consequence. Use placeholders for case facts; do not present invented details as given.
+- **Classification / comparison:** put the distinguishing criterion beside easily confused alternatives. Avoid vague advice or repeated definitions that do not help answer a question.
 
-## 4. Produce and verify
+Illustrative formats, not content to copy into unrelated courses:
 
-- Default final deliverable is an editable Word `.docx`; do not deliver a PDF unless the user later explicitly asks. If an available document skill or tool applies, follow its creation, editing, and visual-verification workflow. Temporary render artifacts may be used for layout inspection but are not final deliverables. Do not automate an open user document or overwrite unsaved changes without addressing the risk.
-- Respect page limits, readability, table borders, column widths, terminology, existing formatting, and the user's workspace/file preferences. Do not create backups or auxiliary files by default when the user has requested otherwise. Prefer adjusting whitespace and table layout before shrinking text; never claim a fixed page count based on text extraction alone.
-- Verify that requested content, formulas, examples, abbreviations, and source attributions are present and consistent. Test representative calculation, classification, and/or scenario questions against the sheet where available: can the student locate the item and use it correctly? Simulated testing does not establish a real exam score or guarantee coverage.
-- Render and inspect actual page images when the environment permits; check page count, clipping, table borders, font readability, formulas, and print margins. If preview or rendering is unavailable, still check document structure and content, and explicitly state that actual pagination and appearance remain unverified. Report what was changed, what was checked, and material unresolved limitations.
+| Topic | 中文速记 | Exam use |
+|---|---|---|
+| Risk exposure | 风险暴露 | If the course uses P × I: probability P = 40%, impact score I = 4 → 0.4 × 4 = 1.6; compare risks using the same scale. |
+| Product Owner (PO) | 需求与优先级 | Work with [stakeholders] to identify [needs], then order [backlog items] by their value to [product goal]. |
+
+## 4. Sample before the full sheet
+
+For a complete new sheet, make a small representative sample grounded in the actual materials. Cover the main question types where possible and show the source, language, level of detail, answer prompts, and proposed layout. Present it in chat or as an editable Word sample when layout matters; state any reading or rendering limitations. Wait for the user's acceptance before producing the complete sheet; revise the sample if requested. Do not repeat this gate for a small edit or audit, or when the user explicitly approves the approach or asks to skip it.
+
+## 5. Produce and check
+
+- Deliver an editable Word `.docx` by default; do not deliver a PDF unless requested. Use the available document tools and their verification workflow. Respect page limits, table borders, readable widths and font size, existing formatting, workspace rules, and the user's preferences about backups. If content does not fit, adjust layout or discuss trade-offs; do not silently remove requested material.
+- Check facts and formulas against sources, then use representative questions to see whether the student can find and apply the information. AI practice results do not guarantee a real exam score or complete coverage.
+- Render and inspect pages when possible, checking page count, clipping, fonts, borders and print margins. Temporary preview files are not deliverables. If rendering is unavailable, report that actual pagination and appearance remain unverified; never infer them from text extraction alone. Preserve open documents and unsaved user changes.
